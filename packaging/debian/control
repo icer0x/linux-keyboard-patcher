@@ -1,0 +1,10 @@
+Package: linux-keyboard-patcher
+Version: 1.0-8
+Section: admin
+Priority: optional
+Architecture: amd64
+Maintainer: Blek <www.farhanperdana.com>
+Depends: python3, zenity, pkexec, grub2-common | grub2
+Description: Fixing unusable keyboard after GRUB
+ GUI and terminal tool that temporarily adds four keyboard-related GRUB
+ entries and lets the user make the working entry's kernel parameters permanent.

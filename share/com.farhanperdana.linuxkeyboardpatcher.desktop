@@ -1,0 +1,11 @@
+[Desktop Entry]
+# Copyright (C) 2026 Blek
+# SPDX-License-Identifier: GPL-3.0-only
+Type=Application
+Name=Linux Keyboard Patcher
+Comment=Fixing unusable keyboard after GRUB
+Exec=/usr/bin/linux-keyboard-patcher --gui
+Icon=com.farhanperdana.linuxkeyboardpatcher
+Categories=System;Settings;
+Terminal=false
+StartupNotify=true

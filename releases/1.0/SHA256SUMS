@@ -1,0 +1,13 @@
+5e391f885b7bc5cbd9195e110f06dd03259892261a749e9b5059d5c307d82863  ./README.md
+59b93047c40139afaecaec5ba723df9baa0855ffb32bb96de88643f238fa0a52  ./binaries/linux-keyboard-patcher
+3f4cf3f161f53de4abe6f831ab642a45684c36262885dc7abf628394c14777e5  ./binaries/linux-keyboard-patcher-i386
+3398e96a3f8dcb3986049367cef15801d9ee208b4dbab71ecf163a9aa7b142ef  ./deb/linux-keyboard-patcher_1.0-8_amd64.deb
+ab527fd583d8a524c10b6907e5c2c3a07b58f1515533b8647042fce066312ee1  ./deb/linux-keyboard-patcher_1.0-8_i386.deb
+623c3bf4e118a9f315122845bf8318680c86ad726cfd1f8dee7b4fe0a7dadef6  ./rpm/linux-keyboard-patcher-1.0-5.i686.rpm
+76cc80008c68e2e59b9d0bd223ee0ed89af80cfbe2a2ce9e89d4b25b68769002  ./rpm/linux-keyboard-patcher-1.0-5.x86_64.rpm
+efc237db6640d91a78bc764b64a1c327668441157a51ce9736ddf3df5514b6e8  ./rpm/linux-keyboard-patcher.spec
+538681b57820cb1807c53ce38ec33df98540a10c564605916f88bc324841b258  ./rpm/sources/linux-keyboard-patcher-1.0-i686.tar.gz
+12ca43fde551d33e330f45f792ef7b54a49f17a9748d201ea7c5f042e1762417  ./rpm/sources/linux-keyboard-patcher-1.0-x86_64.tar.gz
+0814d0255a349f343c7449bd6f6f84f9da4b8d8b677f3359dcf340825f9c60c9  ./source/linux-keyboard-patcher-source-1.0.tar.gz
+dc4ec5f33bb39e4e83d8ec00d80ad39ed69f1a1a060888b28e5ffe4c6add1451  ./tarball/linux-keyboard-patcher-1.0-i386.tgz
+77c9515ce4aa88e28c25c3a1d141c8f571f76e4ad96f42f8054ea79bf6dce294  ./tarball/linux-keyboard-patcher-1.0-x86_64.tgz

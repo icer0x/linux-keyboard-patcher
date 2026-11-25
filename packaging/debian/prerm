@@ -1,0 +1,14 @@
+#!/bin/sh
+# Copyright (C) 2026 Blek
+# SPDX-License-Identifier: GPL-3.0-only
+set -e
+if [ "$1" = remove ] || [ "$1" = deconfigure ]; then
+    helper=/usr/lib/linux-keyboard-patcher/root-helper.py
+    if [ -x "$helper" ] && [ -r /var/lib/linux-keyboard-patcher/state.json ]; then
+        phase=$(python3 -c 'import json; print(json.load(open("/var/lib/linux-keyboard-patcher/state.json")).get("phase", ""))' 2>/dev/null || true)
+        if [ "$phase" = testing ]; then
+            "$helper" cancel || true
+        fi
+    fi
+fi
+exit 0
